@@ -49,8 +49,9 @@ section{padding: 40px 0;}
 .weDoWrap .whatbox .dopoints figure{width: 31.33%; margin-right: 3%;border: 1px solid #BCA287;background: #ffffff; padding: 30px; text-align: left; border-radius: 20px;position: relative;}
 .weDoWrap .whatbox .dopoints figure:before{content: ''; background: #BCA287;position: absolute; width: 80%; height: 40px; left:0;right: 0; margin: 0 auto; bottom: -10px; border-radius: 0 0 20px 20px; opacity: 0.2; z-index: -9;}
 .weDoWrap .whatbox .dopoints figure:last-child{margin-right: 0;}
-.weDoWrap .whatbox .dopoints figure .iconbx{border: 1px solid #EDE7E0;background: #FFFAF4;height: 80px; width: 80px;display: flex;align-items: center; justify-content: center;border-radius: 50px;margin-bottom: 40px;}
-.weDoWrap .whatbox .dopoints figure .iconbx svg{height: 30px; width: 30px;}
+.weDoWrap .whatbox .dopoints figure .iconbx{border: 1px solid #EDE7E0;background: #FFFAF4;height: 80px; width: 80px;display: flex;align-items: center; justify-content: center;border-radius: 50px;margin-bottom: 40px;transition: transform 0.4s ease;}
+.weDoWrap .whatbox .dopoints figure .iconbx svg{height: 30px; width: 30px;transition: transform 0.4s ease;}
+.weDoWrap .whatbox .dopoints figure .iconbx:hover svg {transform: scale(1.3) rotate(15deg);}
 .weDoWrap .whatbox .dopoints figure  h3{font-size: 18px; font-weight: 500; line-height: 26px; margin-bottom: 20px;}
 
 .worksWrap .container{display: flex; align-items: flex-start; justify-content: space-between;}
@@ -71,13 +72,13 @@ section{padding: 40px 0;}
 .teamWrap{background: #FFFAF4;}
 .teamWrap .container{display: flex; align-items: flex-start;justify-content: space-between;}
 .teamWrap .teamDetail p{font-size: 18px; line-height: 30px; font-weight: 500;margin-bottom: 20px;}
-.teamWrap .lftbx{width: 65%;margin-right: 10%;}
-.teamWrap .rgtbx{width: 25%;}
+.teamWrap .rgtbx {width: 65%;}
+.teamWrap .lftbx{width: 25%;margin-right: 8%;}
 
-.teamWrap .rgtbx .cardbx{background: #fff; border: 1px solid #BCA287; border-radius: 18px; padding: 12px; text-align: center;}
-.teamWrap .rgtbx .cardbx img{max-width: 277px; height: 100%; border-radius: 18px;margin-bottom: 10px;}
-.teamWrap .rgtbx .cardbx h3{font-size: 16px; font-weight: 700; line-height: 22px;}
-.teamWrap .rgtbx .cardbx h4{font-size: 14px; font-weight: 400; line-height: 20px; }
+.teamWrap .lftbx .cardbx{background: #fff; border: 1px solid #BCA287; border-radius: 18px; padding: 12px; text-align: center;}
+.teamWrap .lftbx .cardbx img{max-width: 277px; height: 100%; border-radius: 18px;margin-bottom: 10px;}
+.teamWrap .lftbx .cardbx h3{font-size: 16px; font-weight: 700; line-height: 22px;}
+.teamWrap .lftbx .cardbx h4{font-size: 14px; font-weight: 400; line-height: 20px; }
 
 .footer{background: #24342A; padding: 40px 0 30px;}
 .footer .container{ display: flex;justify-content: space-between;}
@@ -103,8 +104,9 @@ border: 0;border-radius: 10px;padding: 15px 30px;border: 1.5px solid #FFFFFF80;c
 .footer figure.contactus_form input[type="submit"]:hover {background: linear-gradient(0deg, #BCA287, #946A3F);border: 1.5px solid #fff;cursor: pointer;box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
 .footer figure.contactus_form .thanksmsg{padding: 10px 0; text-align: center; color:#fff; font-weight: 500; display: block; font-style: italic;}
 .footer figure.addressWrap h3{font-size: 24px; font-weight: 600; line-height: 30px; color: #fff; text-transform: uppercase; margin-bottom: 20px;}
-.footer figure.addressWrap p{font-size: 18px; line-height: 36px; font-weight: 400; color: #fff;}
-
+.footer figure.addressWrap p{font-size: 18px; line-height: 36px; font-weight: 400; color: #fff;margin-bottom: 0;}
+.footer figure.addressWrap span{display: block; margin-bottom: 6px; font-size: 18px; line-height: 28px; font-weight: 400; color: #fff;}
+.footer figure.addressWrap span b{font-weight: 500;color: #b98b5a;}
 
 
 
@@ -147,9 +149,9 @@ nav ul li.active a{border-bottom: 0;}
 .worksWrap .rgtbx .imgbx img{height: 100%; width: 100%;}
 
 .teamWrap .container{flex-wrap: wrap;}
-.teamWrap .lftbx{width: 100%; margin-right: 0;}
-.teamWrap .rgtbx{width: 100%;}
-.teamWrap .rgtbx .cardbx img{width: 100%;max-width: 100%;}
+.teamWrap .rgtbx{width: 100%; }
+.teamWrap .lftbx{width: 100%;margin-right: 0;margin-bottom: 20px;}
+.teamWrap .lftbx .cardbx img{max-width: 100%;max-width: 100%;}
 
 .footer .container{flex-wrap: wrap;}
 .footer figure{width: 100%; margin-right: 0;padding-right:0; margin-bottom: 20px;padding-bottom:20px; border-right: none; border-bottom: 1px solid #32543f;}
