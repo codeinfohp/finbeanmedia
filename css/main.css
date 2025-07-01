@@ -55,8 +55,8 @@ section{padding: 40px 0;}
 .weDoWrap .whatbox .dopoints figure  h3{font-size: 18px; font-weight: 500; line-height: 26px; margin-bottom: 20px;}
 
 .worksWrap .container{display: flex; align-items: flex-start; justify-content: space-between;}
-.worksWrap .lftbx{width: 55%;margin-right: 10%;}
-.worksWrap .rgtbx{width: 35%;}
+.worksWrap .lftbx{width: 50%;margin-right: 7%;}
+.worksWrap .rgtbx{width: 43%;}
 
 
 .worksWrap .lftbx .buildpoints ol{list-style: none;counter-reset: num-counter;position: relative;}
@@ -67,18 +67,20 @@ section{padding: 40px 0;}
     margin-right: 22px;width: 50px;height: 50px;background: #FFFAF4;border: 1px solid #EDE7E0;border-radius: 50%;
     display: flex;justify-content: center;color: #946A3F;align-items: center;}
 .worksWrap .lftbx .buildpoints p{font-size: 16px; font-weight: 400;line-height: 22px; margin-bottom: 10px;}
-.worksWrap .rgtbx .imgbx img{height: 445px; max-width: 425px;}
+.worksWrap .rgtbx .imgbx{display: flex; justify-content: flex-end;}
+.worksWrap .rgtbx .imgbx img{height: 500px; max-width: 500px;}
 
 .teamWrap{background: #FFFAF4;}
 .teamWrap .container{display: flex; align-items: flex-start;justify-content: space-between;}
 .teamWrap .teamDetail p{font-size: 18px; line-height: 30px; font-weight: 500;margin-bottom: 20px;}
-.teamWrap .rgtbx {width: 65%;}
-.teamWrap .lftbx{width: 25%;margin-right: 8%;}
+.teamWrap .lftbx{width: 40%;margin-right: 10%;}
+.teamWrap .rgtbx {width: 50%;}
 
-.teamWrap .lftbx .cardbx{background: #fff; border: 1px solid #BCA287; border-radius: 18px; padding: 12px; text-align: center;}
-.teamWrap .lftbx .cardbx img{max-width: 277px; height: 100%; border-radius: 18px;margin-bottom: 10px;}
-.teamWrap .lftbx .cardbx h3{font-size: 16px; font-weight: 700; line-height: 22px;}
-.teamWrap .lftbx .cardbx h4{font-size: 14px; font-weight: 400; line-height: 20px; }
+
+.teamWrap .lftbx .cardbx{text-align: center;}
+.teamWrap .lftbx .cardbx img{max-width: 500px; height: 100%; border-radius: 18px;margin-bottom: 10px;}
+.teamWrap .lftbx .cardbx h3{font-size: 22px; font-weight: 700; line-height: 30px;}
+.teamWrap .lftbx .cardbx h4{font-size: 18px; font-weight: 500; line-height: 26px; }
 
 .footer{background: #24342A; padding: 40px 0 30px;}
 .footer .container{ display: flex;justify-content: space-between;}
@@ -90,7 +92,7 @@ section{padding: 40px 0;}
 .footer figure.companyBx .socilaIcon ul{display: flex; align-items: center; justify-content: flex-start;}
 .footer figure.companyBx .socilaIcon ul li{margin-right: 15px;}
 .footer figure.companyBx .socilaIcon ul li a{display: block;}
-.footer figure.companyBx .socilaIcon ul li svg{height: 28px; width: 28px;}
+.footer figure.companyBx .socilaIcon ul li svg{height: 36px; width: 36px;}
 
 .footer figure.contactus_form .form-group{margin-bottom: 12px;color: #fff;}
 .footer figure.contactus_form .sent-message {display: none;color: #fff;background: #18d26e;text-align: center;padding: 15px;font-weight: 600;}
@@ -104,9 +106,25 @@ border: 0;border-radius: 10px;padding: 15px 30px;border: 1.5px solid #FFFFFF80;c
 .footer figure.contactus_form input[type="submit"]:hover {background: linear-gradient(0deg, #BCA287, #946A3F);border: 1.5px solid #fff;cursor: pointer;box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
 .footer figure.contactus_form .thanksmsg{padding: 10px 0; text-align: center; color:#fff; font-weight: 500; display: block; font-style: italic;}
 .footer figure.addressWrap h3{font-size: 24px; font-weight: 600; line-height: 30px; color: #fff; text-transform: uppercase; margin-bottom: 20px;}
-.footer figure.addressWrap p{font-size: 18px; line-height: 36px; font-weight: 400; color: #fff;margin-bottom: 0;}
-.footer figure.addressWrap span{display: block; margin-bottom: 6px; font-size: 18px; line-height: 28px; font-weight: 400; color: #fff;}
-.footer figure.addressWrap span b{font-weight: 500;color: #b98b5a;}
+.footer figure.addressWrap p{font-size: 18px; line-height: 36px; font-weight: 400; color: #fff;margin-bottom: 15px;}
+.footer figure.addressWrap span{display: flex; margin-bottom: 6px; font-size: 18px; line-height: 28px; font-weight: 400; color: #fff;}
+.footer figure.addressWrap span svg{display: block; height: 24px; width: 24px;margin-right: 10px;}
+
+/*Contact Page*/
+.contactuspage .lftbx{width: 100%; text-align: center;margin: 50px 0;}
+.contactPage{background: #FFFAF4;}
+.contactPage .contactus_form{max-width: 600px; margin: 20px auto;}
+.contactPage .contactus_form .form-group{margin-bottom: 12px;color: #fff;}
+.contactPage .contactus_form .sent-message {display: none;color: #fff;background: #18d26e;text-align: center;padding: 15px;font-weight: 600;}
+.contactPage .contactus_form input,.contactPage .contactus_form textarea {border-radius: 0;box-shadow: none;font-size: 14px;width: 100%;letter-spacing: 1px;}
+.contactPage .contactus_form input{padding:15px;background: #304A3A;border-radius: 8px;font-size: 12px;border: 1px solid #6D957C;}
+.contactPage .contactus_form textarea {padding: 12px 15px;background: #304A3A;border-radius: 8px;font-size: 12px;border: 1px solid #6D957C;font-family: "Poppins", sans-serif;}
+.contactPage .contactus_form input::placeholder,.contactPage .contactus_form textarea::placeholder {color: #fff;
+}
+.contactPage .contactus_form input[type="submit"] {background: linear-gradient(0deg, #946A3F, #946A3F);
+border: 0;border-radius: 10px;padding: 15px 30px;border: 1.5px solid #FFFFFF80;color: #fff;transition: 0.3s;text-transform: uppercase;}
+.contactPage .contactus_form input[type="submit"]:hover {background: linear-gradient(0deg, #BCA287, #946A3F);border: 1.5px solid #fff;cursor: pointer;box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
+.contactPage .contactus_form .thanksmsg{padding: 10px 0; text-align: center; color:#fff; font-weight: 500; display: block; font-style: italic;}
 
 
 
@@ -149,8 +167,8 @@ nav ul li.active a{border-bottom: 0;}
 .worksWrap .rgtbx .imgbx img{height: 100%; width: 100%;}
 
 .teamWrap .container{flex-wrap: wrap;}
-.teamWrap .rgtbx{width: 100%; }
-.teamWrap .lftbx{width: 100%;margin-right: 0;margin-bottom: 20px;}
+.teamWrap .rgtbx{width: 100%;order: 1; }
+.teamWrap .lftbx{width: 100%;margin-right: 0;margin-bottom: 20px;order: 2;}
 .teamWrap .lftbx .cardbx img{max-width: 100%;max-width: 100%;}
 
 .footer .container{flex-wrap: wrap;}
