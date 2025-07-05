@@ -113,6 +113,8 @@ section{padding: 40px 0;}
 .contactPage .contactus_form input[type="submit"]:hover {background: linear-gradient(0deg, #BCA287, #946A3F);border: 1.5px solid #fff;cursor: pointer;box-shadow: 0 4px 10px rgba(0,0,0,0.2);}
 .contactPage .contactus_form .thanksmsg{padding: 10px 0; text-align: center; color:#fff; font-weight: 500; display: block; font-style: italic;}
 
+.contactuspage .lftbx h3{margin-bottom: 0;}
+
 @media (max-width:767px){
 header .logo img{width: 140px;}
 .container{width:100%;padding:0 20px;box-sizing:border-box}
@@ -159,5 +161,8 @@ nav ul li.active a{border-bottom: 0;}
 .footer .container{flex-wrap: wrap;}
 .footer figure{width: 100%; margin-right: 0;padding-right:0; margin-bottom: 20px;padding-bottom:20px; border-right: none; border-bottom: 1px solid #32543f;}
 .footer figure:last-child{border-bottom:none;margin-bottom: 0; padding-bottom: 0;}
+
+.contactuspage .lftbx{margin-bottom: 0;margin-top: 30px;}
+.contactuspage .lftbx h3{margin-bottom: 0;}
 
 }
