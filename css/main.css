@@ -64,7 +64,7 @@ section{padding: 40px 0;}
 .worksWrap .rgtbx .imgbx img{height: 500px; max-width: 500px;}
 
 .teamWrap{background: #FFFAF4;}
-.teamWrap .container{display: flex; align-items: flex-start;justify-content: space-between;}
+.teamWrap .container{display: flex; align-items: center;justify-content: space-between;}
 .teamWrap .teamDetail p{font-size: 18px; line-height: 30px; font-weight: 500;margin-bottom: 20px;}
 .teamWrap .lftbx{width: 35%;margin-right: 10%;}
 .teamWrap .rgtbx {width: 55%;}
