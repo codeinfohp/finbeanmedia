@@ -4,14 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fin Bean Media</title>
-<meta content="Content Solutions, Leadership & HRD, Healthcare,Skill Development, " name="keywords">
-<meta content="TLC Infinity provides 1. Content Writing & Digital Solutions 2. Leadership Coaching & Skills 3. Healthcare, Wellness & Treatment Consultancy." name="description">
+<meta content="" name="keywords">
+<meta content="" name="description">
 <link href="images/favicon.png" rel="icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel='stylesheet' href="css/animate.min.css">
-<link rel='stylesheet' href='css/swiper-bundle.min.css'>
 <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -130,8 +128,11 @@
     <div class="lftbx">
       <div class="cardbx">
           <img src="images/suyash.png" alt="" height="100%" width="100%">
-          <h3>Suyash Maheshwari</h3>
-          <h4>Designation: Founder</h4>
+          <div class="namebx">
+            <h3>Suyash Maheshwari</h3>
+            <h4>Designation: Founder</h4>
+          </div>
+          
         </div>
     </div>
     <div class="rgtbx">
@@ -180,7 +181,7 @@
             <div class="validate"></div>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" name="Email" autocomplete="off" id="email" placeholder="Email* " required />
+            <input type="email" class="form-control" name="Email" autocomplete="off" id="email" placeholder="Email* " required />
             <div class="validate"></div>
           </div>
           <div class="form-group">
@@ -329,6 +330,20 @@
 	});
 	
 });
+    </script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwgNqRx_vZcWoSxg-cCitoxGrZBgmbdIVMcle2mVcxNSpKt2Ck1GxNHA1K3Zi9JbQ5AmQ/exec';
+      const form = document.forms['submit-to-google-sheet'];
+
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => alert("Thank you! Form is submitted"))
+          .then(() => { window.location.reload(); })
+          .catch(error => console.error('Error!', error.message));
+      });
     </script>
        
       
